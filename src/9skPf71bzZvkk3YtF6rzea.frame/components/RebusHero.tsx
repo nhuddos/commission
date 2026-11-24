@@ -31,6 +31,6 @@ const OPEN: Token[] = [
 
 const CLOSED: Token[] = [
   'Hi! I’m an', { d: 'eye' }, 'artist', { d: 'pencil' }, 'who draws', { d: 'heart' },
-  'characters,', { d: 'cat' }, 'creatures and', { d: 'star' }, 'ur OCs. Commissions are closed', { d: 'cloud' },
+  'characters,', { d: 'cat' }, ' and', { d: 'star' }, 'ur OCs. Commissions are closed', { d: 'cloud' },
   'for now, but come say hi', { d: 'bubble' }, 'and I’ll ping you when they reopen.', { d: 'sparkle' },
 ]

@@ -25,12 +25,12 @@ export function RebusHero({ open }: { open: boolean }) {
 
 const OPEN: Token[] = [
   'Hi! I’m an', { d: 'eye' }, 'artist', { d: 'pencil' }, 'who draws', { d: 'heart' },
-  'characters,', { d: 'cat' }, 'animals and', { d: 'star' }, 'your OCs', { d: 'flower' },
+  'characters,', { d: 'cat' }, 'animals and', { d: 'star' }, 'ur OCs', { d: 'flower' },
   'for', { d: 'brush' }, 'fun. Commissions are', { d: 'rainbow' }, 'open!', { d: 'sparkle' }, { d: 'bird' },
 ]
 
 const CLOSED: Token[] = [
   'Hi! I’m an', { d: 'eye' }, 'artist', { d: 'pencil' }, 'who draws', { d: 'heart' },
-  'characters,', { d: 'cat' }, 'creatures and', { d: 'star' }, 'your OCs. Commissions are closed', { d: 'cloud' },
+  'characters,', { d: 'cat' }, 'creatures and', { d: 'star' }, 'ur OCs. Commissions are closed', { d: 'cloud' },
   'for now, but come say hi', { d: 'bubble' }, 'and I’ll ping you when they reopen.', { d: 'sparkle' },
 ]

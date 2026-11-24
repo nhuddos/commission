@@ -25,7 +25,7 @@ export function RebusHero({ open }: { open: boolean }) {
 
 const OPEN: Token[] = [
   'Hi! I’m an', { d: 'eye' }, 'artist', { d: 'pencil' }, 'who draws', { d: 'heart' },
-  'characters,', { d: 'cat' }, 'animals and', { d: 'star' }, 'ur OCs', { d: 'flower' },
+  'characters,', { d: 'cat' }, ' and', { d: 'star' }, 'ur OCs', { d: 'flower' },
   'for', { d: 'brush' }, 'fun. Commissions are', { d: 'rainbow' }, 'open!', { d: 'sparkle' }, { d: 'bird' },
 ]
 

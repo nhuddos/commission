@@ -1,0 +1,30 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORT — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORT MUST NEVER BE DELETED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss';
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@theme {
+  --font-hand: 'Gochi Hand', 'Comic Sans MS', cursive;
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: #f4efe4;
+  --color-card: #fffaf0;
+  --color-ink: #1d1a17;
+  --color-ink-soft: #5c544b;
+  --color-coral: #f0614f;
+  --color-tangerine: #f58a3c;
+  --color-mustard: #ecb83f;
+  --color-teal: #1f8f7a;
+  --color-pink: #f4a9c4;
+  --color-periwinkle: #8fa3ea;
+  --color-cream: #f8dfb9;
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

@@ -19,7 +19,7 @@ export function PriceSheet({ currency, onCurrency, rates, liveRates }: Props) {
             <h2 className="font-hand text-4xl uppercase sm:text-5xl">
               Prices <Doodle name="star" className="inline-block h-[0.8em] w-auto align-middle" />
             </h2>
-            <p className="mt-2 max-w-lg text-lg text-ink-soft">Per character. Anime or realistic style — same price, your pick.</p>
+            <p className="mt-2 max-w-lg text-lg text-ink-soft">Per character.</p>
           </div>
           <div className="flex flex-col items-start gap-1.5 sm:items-end">
             <CurrencyToggle value={currency} onChange={onCurrency} />

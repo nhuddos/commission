@@ -10,15 +10,15 @@ export type Artwork = {
 }
 
 export const PRICES: Record<Finish, Record<Framing, number>> = {
-  sketch: { bust: 20, torso: 40, fullbody: 60 },
-  rendered: { bust: 50, torso: 90, fullbody: 120 },
+  sketch: { bust: 20, torso: 40, fullbody: 50 },
+  rendered: { bust: 50, torso: 65, fullbody: 100 },
 }
 
-export const CHIBI_PRICE = 50
+export const CHIBI_PRICE = 40
 
 export const ADDONS = [
-  { id: 'pose', label: 'Detailed pose', price: 30 },
-  { id: 'background', label: 'Detailed background', price: 50 },
+  { id: 'pose', label: 'Detailed pose', price: 20 },
+  { id: 'background', label: 'Detailed background', price: 40 },
 ] as const
 
 export const TURNAROUND = '1–3 weeks'
